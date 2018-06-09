@@ -9,9 +9,6 @@ namespace WebAPI.Data
    public interface ISchoolRepository
     {
         IQueryable<Student> GetAllStudent();
-
-        bool Insert(AuthToken token);
-
-
+        
     }
 }

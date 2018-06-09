@@ -18,10 +18,6 @@ namespace WebAPI.Data
         {
             return _ctx.Students;
         }
-
-        public bool Insert(AuthToken token)
-        {
-            return true;
-        }
+        
     }
 }

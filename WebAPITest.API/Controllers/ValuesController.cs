@@ -12,7 +12,7 @@ namespace WebAPITest.API.Controllers
     {
         
         // GET api/values
-        public IEnumerable<object> Get()
+        public IEnumerable<string> Get()
         {
 
             return new string[] { "value1", "value2" };

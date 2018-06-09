@@ -11,14 +11,14 @@ namespace WebAPI.Data
         {
             var students = new List<Student>
             {
-            new Student{FirstMidName="Carson",LastName="Alexander"},
-            new Student{FirstMidName="Meredith",LastName="Alonso"},
-            new Student{FirstMidName="Arturo",LastName="Anand"},
-            new Student{FirstMidName="Gytis",LastName="Barzdukas"},
-            new Student{FirstMidName="Yan",LastName="Li"},
-            new Student{FirstMidName="Peggy",LastName="Justice"},
-            new Student{FirstMidName="Laura",LastName="Norman"},
-            new Student{FirstMidName="Nino",LastName="Olivetto"}
+            new Student{FirstName="Carson",LastName="Alexander"},
+            new Student{FirstName="Meredith",LastName="Alonso"},
+            new Student{FirstName="Arturo",LastName="Anand"},
+            new Student{FirstName="Gytis",LastName="Barzdukas"},
+            new Student{FirstName="Yan",LastName="Li"},
+            new Student{FirstName="Peggy",LastName="Justice"},
+            new Student{FirstName="Laura",LastName="Norman"},
+            new Student{FirstName="Nino",LastName="Olivetto"}
             };
 
             students.ForEach(s => context.Students.Add(s));
